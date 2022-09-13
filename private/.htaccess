@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Restricted access"
+AuthUserFile "Website/.htpasswd"
+Require valid-user
+ErrorDocument 401 "Authorisation Required"
